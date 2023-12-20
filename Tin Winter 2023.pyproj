@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e609b8a6-8129-485b-97e3-82deca06f093</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tin_Winter_2023.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +22,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Tin_Winter_2023.py" />
+    <Compile Include="tin_1.py" />
+    <Compile Include="tin_2.py" />
+    <Compile Include="tin_3.py" />
+    <Compile Include="tin_4.py" />
+    <Compile Include="tin_5.py" />
+    <Compile Include="tin_6.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
